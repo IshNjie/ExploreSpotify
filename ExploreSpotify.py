@@ -1,13 +1,9 @@
 
-# In[1]:
-
 
 import requests
 import pandas as pd
 from spot_secrets import *
 
-
-# In[2]:
 
 
 class exploreSpotify:
@@ -66,3 +62,5 @@ class exploreSpotify:
         df_tracks = pd.DataFrame(data = d)
         
         return df_tracks
+
+        
