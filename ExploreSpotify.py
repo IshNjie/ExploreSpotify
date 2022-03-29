@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# https://developer.spotify.com/console/get-current-user-playlists/?limit=&offset=
-# 
-# https://developer.spotify.com/console/get-playlist-tracks/?playlist_id=&market=&fields=&limit=&offset=&additional_types=
-# 
-# 
 
 # In[1]:
 
@@ -74,41 +66,3 @@ class exploreSpotify:
         df_tracks = pd.DataFrame(data = d)
         
         return df_tracks
-    
-
-
-# In[3]:
-
-
-vibes = exploreSpotify(playlist_OAuth,playlist_endpoint,tracks_OAuth,track_endpoint)
-
-
-# In[ ]:
-
-
-ishPlay = vibes.getPlaylists()
-
-
-# In[ ]:
-
-
-ishPlay.head()
-
-
-# In[4]:
-
-
-songs = vibes.getTracks('R&B')
-
-
-# In[6]:
-
-
-songs.head()
-
-
-# In[ ]:
-
-
-
-
