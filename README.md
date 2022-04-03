@@ -14,3 +14,7 @@ The Console will have multiple endpoints you can use to connect to the Spotify W
 
 3. Create a spot_secrets.py file and assign the endpoints and OAuth Token's to relevant variables
 
+4. 
+  * Call the *getPlaylists* method to get a list of all of the playlists
+  * Call the *getTracks* method to get a list of the tracks in a playlist (capped at 100)
+
