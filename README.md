@@ -6,7 +6,7 @@ Having fun with the Spotify API - A simple script that allows the user to view t
 ## Setup 
 
 1. Navigate to Spotify for Developers and go to the [Console Tab](https://developer.spotify.com/console/)
-The Console will have multiple endpoints you can use to connect to the Spotify Web API. Here is where we will retrieve the endpoint and OAuth Token for each console type.
+The Console will have multiple endpoints you can use to connect to the Spotify Web API. Here is where we will retrieve the endpoint and OAuth Token for each Console type.
 
 2. For the playlists endpoints, go to the Playlists dropdown. The endpoints we used were:
 * [Current user's playlist](https://developer.spotify.com/console/get-current-user-playlists/) 
